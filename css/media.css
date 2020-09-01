@@ -1,0 +1,377 @@
+@media (min-width: 1024px) {
+    .media_nav_wrapper,
+    .product_ekr_info span,
+    .product_mar_info span,
+    .product_mag_info span,
+    .product_gri_info span,
+    .product_sve_info span,
+    .contact_info_media {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        width: 70%;
+        min-width: 425px;
+        margin: 0 auto;
+    }
+
+    .header_menu {
+        display: flex;
+    }
+
+    .media_nav-triger {
+        display: block;
+        width: 25px;
+        height: 17px;	
+        background: url(../images/mm-menu.png) 0 0 repeat;
+        position: absolute;
+        left: 85%;
+        top: 20px;
+        z-index: 100;
+    }
+
+    .media_nav-close {
+        display: block;
+        width: 28px;
+        height: 28px;	
+        background: url(../images/mm-close.png) 0 0 repeat;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .media_nav {
+        display: none;	
+        background: #2c2e3e;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0;
+        padding: 30px;
+        z-index: 9999;	
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .media_nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .media_nav li {
+        list-style: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .media_nav li a {
+        font-size: 18px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        line-height: 1.4;	
+        text-decoration: none;
+    }
+    
+    .media_nav-pointer * {
+        cursor: pointer;
+    }
+
+    .fon_menu {
+        height: 60px;
+    }
+
+    .header_promo {
+        padding-top: 120px;
+        height: 80vh;
+    }
+
+    .header_promo h1 {
+        font-size: 42px;
+    }
+
+    .content h3 {
+        font-size: 28px;
+    }
+    
+    .content p {
+        font-size: 16px;
+    }
+
+    .advantages_list h3 {
+        font-size: 22px;
+    }
+    
+    .product_ekr_info h2,
+    .product_mar_info h2,
+    .product_mag_info h2,
+    .product_gri_info h2,
+    .product_sve_info h2 {
+        font-size: 26px;
+    }
+
+    .product_ekr_item h4,
+    .product_mar_item h4,
+    .product_mag_item h4,
+    .product_gri_item h4,
+    .product_sve_item h4,
+    .product_ekr_item h5,
+    .product_mar_item h5,
+    .product_mag_item h5,
+    .product_gri_item h5,
+    .product_sve_item h5,
+    .content span {
+        font-size: 20px;
+    }
+
+    .advantages_list,
+    .product_ekr_list,
+    .product_mar_list,
+    .product_mag_list,
+    .product_gri_list,
+    .product_sve_list,
+    .about_wrapper,
+    .offer_list {
+        flex-direction: column;
+    }
+
+    .advantages_item,
+    .product_ekr_item,
+    .product_mar_item,
+    .product_mag_item,
+    .product_gri_item,
+    .product_sve_item {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .text_media_cont {
+        width: 350px;
+        height: 100%;
+        margin-left: 30px;
+    }
+
+    .product_ekr_img,
+    .product_mar_img,
+    .product_mag_img,
+    .product_gri_img,
+    .product_sve_img,
+    .contact_phone,
+    .hader_menu_contact,
+    .nav ul,
+    .line_wrapper,
+    .table_media,
+    .contact_info {
+        display: none;
+    }
+
+    .empty_line {
+        height: 60px;  
+    }
+
+    .line_white {
+        height: 60px;
+    }
+
+    .empty_line_1,
+    .empty_line_2,
+    .empty_line_3,
+    .empty_line_4,
+    .empty_line_5 {
+        width: 100%;
+        height: 60px;
+        background-color: rgba(0,0,0, .6);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+    }
+
+    .fon_media_img_1,
+    .fon_media_img_2,
+    .fon_media_img_3,
+    .fon_media_img_4,
+    .fon_media_img_5 {
+        background-color: rgba(0,0,0, .6);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+        width: 100%;
+    }
+
+    .empty_line_1,
+    .fon_media_img_1 {
+        background-image: url(../images/tovary/banner-ekr.jpg);
+    }
+    .empty_line_2,
+    .fon_media_img_2 {
+        background-image: url(../images/tovary/banner-mar.jpg);
+    }
+    .empty_line_3,
+    .fon_media_img_3 {
+        background-image: url(../images/tovary/banner-mag.jpg);
+    }
+    .empty_line_4,
+    .fon_media_img_4 {
+        background-image: url(../images/tovary/banner-gri.jpg);
+    }
+    .empty_line_5,
+    .fon_media_img_5 {
+        background-image: url(../images/tovary/banner-sve.jpg);
+    }
+
+    .product_ekr_info,
+    .product_mar_info,
+    .product_mag_info,
+    .product_gri_info,
+    .product_sve_info {
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .minimized {
+        width: 50%;
+        height: 300px;
+        pointer-events: none;
+    }
+
+    .contacts_form {
+        margin-top: 30px;
+    }
+    
+    .contact_info_media {
+        display: flex;
+        color: #000;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .contact_info_media h3 {
+        font-size: 28px;
+    }
+
+    .contact_info_media-1,
+    .contact_info_media-2 {
+        flex: 1 1;
+        padding: 20px 0 20px 40px;
+    }
+
+    .contact_info_media-1 a,
+    .contact_info_media-2 a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 70%;
+        min-width: 300px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .header_promo h1 {
+        font-size: 32px;
+    }
+    
+    .header_promo h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .img_pochemu-vigodno,
+    .img_pochemu-viezd,
+    .img_pochemu-poit,
+    .img_pochemu-vibor {
+        display: none;
+    }
+
+    .minimized {
+        width: 100%;
+    }
+
+    .product_ekr_item,
+    .product_mar_item,
+    .product_mag_item,
+    .product_gri_item,
+    .product_sve_item,
+    .contact_info_media {
+        display: inline;
+        flex-direction: column;
+    }
+
+    .text_media_cont {
+        width: 250px;
+    }
+
+    .contacts_form {
+        padding: 0;
+    }
+
+    .footer_list {
+        display: inline;
+    }
+
+    .footer_item {
+        padding-top: 25px;
+    }
+}
+
+@media print {
+    .header_menu,
+    .empty_line,
+    .line_white,
+    .fon_menu,
+    .button_perezvonit,
+    .button_viezd,
+    .button_zakazat,
+    .button_otpravit,
+    .contacts_form,
+    .footer,
+    .product_ekr_info span,
+    .product_mar_info span,
+    .product_mag_info span,
+    .product_gri_info span,
+    .product_sve_info span,
+    .empty_line_1,
+    .empty_line_2,
+    .empty_line_3,
+    .empty_line_4,
+    .empty_line_5 {
+        display: none;
+    }
+
+    .site,
+    .fon_media_img_1,
+    .fon_media_img_2,
+    .fon_media_img_3,
+    .fon_media_img_4 {
+        background: none;
+    }
+    
+    .site,
+    .fon_media_img_1,
+    .fon_media_img_2,
+    .fon_media_img_3,
+    .fon_media_img_4 {
+        background-color: #333
+    }
+    
+    .container {
+        width: 90%;     
+    }
+
+    .header_promo {
+        padding: 60px 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contact_phone {
+        display: flex;
+        padding-bottom: 40px;
+    }
+}
